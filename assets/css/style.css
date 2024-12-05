@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: 'txt';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@font-face {
+    font-family: 'txt';
+    src: url(../fonts/static/Comfortaa-Regular.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: #bcd5ac;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bcd5ac;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 1px solid #bcd5ac;
+    background-color: #bcd5ac;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: none;
+    cursor: pointer;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 50%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+canvas {
+    margin: 20px 0;
+}
